@@ -52,8 +52,12 @@
 <h4 id="四、丢包率"><a href="#四、丢包率" class="headerlink" title="四、丢包率"></a>四、丢包率</h4><p> 丢包率常被用于评价和衡量网络性能的指标，在很大程度上可以反映网络的拥塞程度。丢包率=丢失分组总数/发送分组总数</p>
 <h4 id="五、吞吐量"><a href="#五、吞吐量" class="headerlink" title="五、吞吐量"></a>五、吞吐量</h4><p> 单位时间内源主机通过网络向目的主机实际送达的数据量，经常用于度量网络的实际数据传输能力。</p>
 <h3 id="第五-节计算机网络体系结构"><a href="#第五-节计算机网络体系结构" class="headerlink" title="第五 节计算机网络体系结构"></a>第五 节计算机网络体系结构</h3><h4 id="一、计算机网络分层体系结构"><a href="#一、计算机网络分层体系结构" class="headerlink" title="一、计算机网络分层体系结构"></a>一、计算机网络分层体系结构</h4><p> 1.分层思想：计算机完成所有功能可以画分为若干层，每层完成一部分子功能，每层在完成相应功能时与另一通信实体的相同层按照某种协议进行信息交换。<br> 2.体系结构定义：计算机网络所划分的层次及各层次之间协议的集合称为计算机网络体系结构。</p>
-<h4 id="二、OSI参考模型"><a href="#二、OSI参考模型" class="headerlink" title="二、OSI参考模型"></a>二、OSI参考模型</h4><p> <img src="http://www.manongjc.com/images/csdn/15451342971X545vl1h34297.png" alt="OSI"></p>
-<h3 id="第六节-计算机网络与因特网发展简史"><a href="#第六节-计算机网络与因特网发展简史" class="headerlink" title="第六节 计算机网络与因特网发展简史"></a>第六节 计算机网络与因特网发展简史</h3>]]></content>
+<h4 id="二、OSI七层参考模型"><a href="#二、OSI七层参考模型" class="headerlink" title="二、OSI七层参考模型"></a>二、OSI七层参考模型</h4><p>1、物理层：以二进制数据形式在物理媒体上传输数据 TCP/IP——ISO2110，IEEE802，IEEE802.2<br>2、数据链路层：传输有地址的帧以及错误检测功能 TCP/IP——SLIP，CSLIP，PPP，ARP，RARP，MTU<br>3、网络层：为数据包选择路由 TCP/IP——IP，ICMP，RIP，OSPF，BGP，IGMP<br>4、传输层：提供端对端的接口 TCP/IP——TCP，UDP<br>5、会话层：解除或建立与别的接点的联系 没有协议<br>6、表示层：数据格式化，代码转换，数据加密 没有协议<br>7、应用层：文件传输，电子邮件，文件服务，虚拟终端 TCP/IP——TFTP，HTTP，SNMP，FTP，SMTP，DNS，Telnet</p>
+<p> <img src="https://images2.freesion.com/291/58/5858f15d9b4c642645a3319b75fbba93.png" alt="OSI"></p>
+<h4 id="三、TCP-IP四层参考模型"><a href="#三、TCP-IP四层参考模型" class="headerlink" title="三、TCP/IP四层参考模型"></a>三、TCP/IP四层参考模型</h4><p> <img src="https://static.oschina.net/uploads/space/2012/0319/145650_WiP7_109139.jpg" alt="TCP/IP"></p>
+<h4 id="四、TCP-IP五层参考模型"><a href="#四、TCP-IP五层参考模型" class="headerlink" title="四、TCP/IP五层参考模型"></a>四、TCP/IP五层参考模型</h4><p> <img src="https://zhuanlan.zhihu.com/p/347995226" alt="五层参考模型"></p>
+<p> <img src="https://pic1.zhimg.com/v2-bf2eaa5cfd92f9aa9751e2c6b2f38fe8_r.jpg" alt="三种模型映射关系"></p>
+<h3 id="第六节-计算机网络与因特网发展简史"><a href="#第六节-计算机网络与因特网发展简史" class="headerlink" title="第六节 计算机网络与因特网发展简史"></a>第六节 计算机网络与因特网发展简史</h3><h2 id="第二章-网络应用"><a href="#第二章-网络应用" class="headerlink" title="第二章 网络应用"></a>第二章 网络应用</h2><h3 id="第一节-计算机网络应用体系结构"><a href="#第一节-计算机网络应用体系结构" class="headerlink" title="第一节 计算机网络应用体系结构"></a>第一节 计算机网络应用体系结构</h3>]]></content>
       <categories>
         <category>计算机</category>
       </categories>
