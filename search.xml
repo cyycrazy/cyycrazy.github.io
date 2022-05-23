@@ -51,34 +51,22 @@
 <h4 id="三、时延带宽积"><a href="#三、时延带宽积" class="headerlink" title="三、时延带宽积"></a>三、时延带宽积</h4><p> 一段物理链路的传播时延与链路带宽的乘积，表示一段</p>
 <h4 id="四、丢包率"><a href="#四、丢包率" class="headerlink" title="四、丢包率"></a>四、丢包率</h4><p> 丢包率常被用于评价和衡量网络性能的指标，在很大程度上可以反映网络的拥塞程度。丢包率=丢失分组总数/发送分组总数</p>
 <h4 id="五、吞吐量"><a href="#五、吞吐量" class="headerlink" title="五、吞吐量"></a>五、吞吐量</h4><p> 单位时间内源主机通过网络向目的主机实际送达的数据量，经常用于度量网络的实际数据传输能力。</p>
-<h3 id="第五-节计算机网络体系结构"><a href="#第五-节计算机网络体系结构" class="headerlink" title="第五 节计算机网络体系结构"></a>第五 节计算机网络体系结构</h3><h4 id="一、计算机网络分层体系结构"><a href="#一、计算机网络分层体系结构" class="headerlink" title="一、计算机网络分层体系结构"></a>一、计算机网络分层体系结构</h4><p> 1.分层思想：计算机完成所有功能可以画分为若干层，每层完成一部分子功能，每层在完成相应功能时与另一通信实体的相同层按照某种协议进行信息交换。<br> 2.体系结构定义：计算机网络所划分的层次及各层次之间协议的集合称为计算机网络体系结构。</p>
+<h3 id="第五节-计算机网络体系结构"><a href="#第五节-计算机网络体系结构" class="headerlink" title="第五节 计算机网络体系结构"></a>第五节 计算机网络体系结构</h3><h4 id="一、计算机网络分层体系结构"><a href="#一、计算机网络分层体系结构" class="headerlink" title="一、计算机网络分层体系结构"></a>一、计算机网络分层体系结构</h4><p> 1.分层思想：计算机完成所有功能可以画分为若干层，每层完成一部分子功能，每层在完成相应功能时与另一通信实体的相同层按照某种协议进行信息交换。<br> 2.体系结构定义：计算机网络所划分的层次及各层次之间协议的集合称为计算机网络体系结构。</p>
 <h4 id="二、OSI七层参考模型"><a href="#二、OSI七层参考模型" class="headerlink" title="二、OSI七层参考模型"></a>二、OSI七层参考模型</h4><p>1、物理层：以二进制数据形式在物理媒体上传输数据 TCP/IP——ISO2110，IEEE802，IEEE802.2<br>2、数据链路层：传输有地址的帧以及错误检测功能 TCP/IP——SLIP，CSLIP，PPP，ARP，RARP，MTU<br>3、网络层：为数据包选择路由 TCP/IP——IP，ICMP，RIP，OSPF，BGP，IGMP<br>4、传输层：提供端对端的接口 TCP/IP——TCP，UDP<br>5、会话层：解除或建立与别的接点的联系 没有协议<br>6、表示层：数据格式化，代码转换，数据加密 没有协议<br>7、应用层：文件传输，电子邮件，文件服务，虚拟终端 TCP/IP——TFTP，HTTP，SNMP，FTP，SMTP，DNS，Telnet</p>
 <p> <img src="https://images2.freesion.com/291/58/5858f15d9b4c642645a3319b75fbba93.png" alt="OSI"></p>
 <h4 id="三、TCP-IP四层参考模型"><a href="#三、TCP-IP四层参考模型" class="headerlink" title="三、TCP/IP四层参考模型"></a>三、TCP/IP四层参考模型</h4><p> <img src="https://static.oschina.net/uploads/space/2012/0319/145650_WiP7_109139.jpg" alt="TCP/IP"></p>
 <h4 id="四、TCP-IP五层参考模型"><a href="#四、TCP-IP五层参考模型" class="headerlink" title="四、TCP/IP五层参考模型"></a>四、TCP/IP五层参考模型</h4><p> <img src="https://zhuanlan.zhihu.com/p/347995226" alt="五层参考模型"></p>
 <p> <img src="https://pic1.zhimg.com/v2-bf2eaa5cfd92f9aa9751e2c6b2f38fe8_r.jpg" alt="三种模型映射关系"></p>
-<h3 id="第六节-计算机网络与因特网发展简史"><a href="#第六节-计算机网络与因特网发展简史" class="headerlink" title="第六节 计算机网络与因特网发展简史"></a>第六节 计算机网络与因特网发展简史</h3><h2 id="第二章-网络应用"><a href="#第二章-网络应用" class="headerlink" title="第二章 网络应用"></a>第二章 网络应用</h2><h3 id="第一节-计算机网络应用体系结构"><a href="#第一节-计算机网络应用体系结构" class="headerlink" title="第一节 计算机网络应用体系结构"></a>第一节 计算机网络应用体系结构</h3>]]></content>
+<h3 id="第六节-计算机网络与因特网发展简史"><a href="#第六节-计算机网络与因特网发展简史" class="headerlink" title="第六节 计算机网络与因特网发展简史"></a>第六节 计算机网络与因特网发展简史</h3><h2 id="第二章-网络应用"><a href="#第二章-网络应用" class="headerlink" title="第二章 网络应用"></a>第二章 网络应用</h2><h3 id="第一节-计算机网络应用体系结构"><a href="#第一节-计算机网络应用体系结构" class="headerlink" title="第一节 计算机网络应用体系结构"></a>第一节 计算机网络应用体系结构</h3><p> 1、客户/服务器（C/S）结构<br>    最主要的特征是通信只在客户与服务器之间进行，客户与客户之间不进行直接通信。<br> 2、P2P(pear to pear)结构<br>    每个对等端都同时具备C/S应用的客户与服务器的特征，是一个服务器与客户体的结合体，对等端之间直接通信。<br> 3、混合结构<br>    既有中心服务器的存在，又有对等端（客户）间的直接通信。</p>
+<h3 id="第二节-网络应用通信基本原理"><a href="#第二节-网络应用通信基本原理" class="headerlink" title="第二节 网络应用通信基本原理"></a>第二节 网络应用通信基本原理</h3><h4 id="一、网络应用通信基本原理"><a href="#一、网络应用通信基本原理" class="headerlink" title="一、网络应用通信基本原理"></a>一、网络应用通信基本原理</h4><pre><code> C/S通信基本原理：
+  服务器端运行的是服务器进程，被动的等待客户请求服务；客户端运行的是客户进程，主要发起通信，请求服务器进程提供服务。应用进程之间遵循应用层协议交换应用层报文。
+</code></pre>
+<h3 id="第三节-域名系统"><a href="#第三节-域名系统" class="headerlink" title="第三节 域名系统"></a>第三节 域名系统</h3><h3 id="第四节-万维网应用"><a href="#第四节-万维网应用" class="headerlink" title="第四节 万维网应用"></a>第四节 万维网应用</h3><h3 id="第五节-Internet电子邮件"><a href="#第五节-Internet电子邮件" class="headerlink" title="第五节 Internet电子邮件"></a>第五节 Internet电子邮件</h3><h3 id="第六节-FTP"><a href="#第六节-FTP" class="headerlink" title="第六节 FTP"></a>第六节 FTP</h3><h3 id="第七节-P2P应用"><a href="#第七节-P2P应用" class="headerlink" title="第七节 P2P应用"></a>第七节 P2P应用</h3><h3 id="第八节-Socket编程基础"><a href="#第八节-Socket编程基础" class="headerlink" title="第八节 Socket编程基础"></a>第八节 Socket编程基础</h3>]]></content>
       <categories>
         <category>计算机</category>
       </categories>
       <tags>
         <tag>计算机网络原理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>胡思乱想</title>
-    <url>/2021/11/12/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</url>
-    <content><![CDATA[<p>Why I am who I am ? Why I feel my feelings so real ? Who am I ? What’s the truth and fake in the world ? And where I’m going to ?<br>Did anybody have the same thingking with me ? If there’s sombody as me existing in a corner of the world ? I don’t know .But it must being .</p>
-<p>我，可以很大，也可以很小 。如果要探讨“我”可以从多个维度上进行。可以看外表是干净还是邋遢，<br>身份是富翁还是工农，情感是充盈还是干瘪，思想是高尚还是低级，灵魂是圣洁还是肮脏。可是，在黑<br>与白之间其实充斥着许多灰色地带，没有简单地二元对立，“我”是复杂的。“我”会在受伤时愤怒，<br>会在愤怒时攻击，也会在开心时释放善意，会在善意中找寻理想的白。“我”会在意满地的六便士，也<br>会在某天抬头看见月亮和满夜的星光。冷漠，友好，自私，高尚，庸俗……都是“我”。这些特征矛<br>盾却又统一。在这个偌大的世界里每个人都可以是“我”，“我”也可以是每一个人。</p>
-<p>想法多而杂，难以有逻辑性的整理输出，哎，实属难受，在egg这个视频里有许多启迪对于我即是每一个人有了新的看法，在身份的焦虑里面也看到了许多<br>对身份追求上不同类型的人，各自选择出来的人生真是多元。很多诱惑欲望，很轻易就蒙蔽大脑，拨开那些东西，去看最底层的逻辑，最真实的规律，幻想<br>这种东西真的很容易产生，也不是非要多理性，人终归是感性，只不过怎么从生活大染缸里去辨别一些对于自我而言更为重要的东西更需要长期理性的试探。<br>随心所欲不逾矩，恐怕是极为难办的额，没有历经岁月沉淀的智慧怕根本做不到随心所欲。高级的快乐远比低级的快乐带来的满足感更加强烈的多，无论是<br>强度还是持久度。沉溺于幻想、欲望，不能及时清醒，那么面临的风险也会更大。</p>
-<p>宇宙大爆炸之时，遥远的过去的那些原子中，就有一些是属于现在的，我的。这些原子或许看过远古冰川，参与过世界大战，<br>说不定我身体里的某个原子是来自于亿万年前的某一只巨大的恐龙，这谁又知道呢。<br>在浩瀚宇宙面前，我过于渺小，但奇妙的是，人类的主观意识却又是如此强烈，以至于我一度认为自己是这个世界的主角。</p>
-]]></content>
-      <categories>
-        <category>Inspiration and idea</category>
-      </categories>
-      <tags>
-        <tag>Identity anxiety</tag>
-        <tag>自我探索</tag>
       </tags>
   </entry>
 </search>
